@@ -1,0 +1,36 @@
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(236px, 1fr));
+  transition: transform 0.3s ease-in-out;
+}
+
+.slide-left {
+  transform: translateX(-50px);
+  opacity: 0;
+}
+
+.slide-right {
+  transform: translateX(50px);
+  opacity: 0;
+}
+
+.arrow-btn {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.arrow-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.latest .benefit_card_2 {
+  padding: 12px;
+  border: 1px solid #e5e5e5 !important;
+  border-radius: 8px;
+  transition: opacity 0.3s ease-in-out;
+}

@@ -1,0 +1,9 @@
+.a_link {
+  text-decoration: none;
+  color: rgb(103, 103, 103);
+}
+
+.a_link:hover {
+  text-decoration: underline;
+  color: rgb(103, 103, 103);
+}

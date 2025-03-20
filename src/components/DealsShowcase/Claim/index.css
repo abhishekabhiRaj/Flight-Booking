@@ -1,0 +1,26 @@
+.shared_detail_container {
+  display: flex;
+}
+
+.shared_detail_container .left {
+  width: 50%;
+}
+
+.shared_detail_container .right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 699px) {
+  .shared_detail_container {
+    display: unset !important;
+  }
+  .shared_detail_container .left {
+    width: 100% !important;
+  }
+  .shared_detail_container .right {
+    display: none !important;
+  }
+}

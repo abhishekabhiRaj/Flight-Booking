@@ -1,0 +1,360 @@
+:root {
+  --primary: #a64dff;
+  --secondary: #fc7300;
+  --variant_1: #311355;
+  --variant_2: #27ae60;
+  --variant_3: #e2b93b;
+  --variant_4: #ffeee1;
+  --dark_primary: #000;
+  --grey_1: #313131;
+  --grey_2: #525252;
+  --grey_3: #989da8;
+  --grey_4: #e5e5e5;
+  --grey_5: #f6f7ef;
+  --light_primary: #fff;
+  --pale_lime: #caea7d;
+  --error: #d32f2f;
+  --large_shadow: 0 8px 24px rgba(149, 157, 165, 0.2);
+  --small_shadow: 0 8px 24px rgba(149, 157, 165, 0.1);
+}
+
+/* Background Colors */
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-secondary {
+  background-color: var(--secondary);
+}
+.bg-variant-1 {
+  background-color: var(--variant_1);
+}
+.bg-variant-2 {
+  background-color: var(--variant_2);
+}
+.bg-variant-3 {
+  background-color: var(--variant_3);
+}
+.bg-variant-4 {
+  background-color: var(--variant_4);
+}
+.bg-dark-primary {
+  background-color: var(--dark_primary);
+}
+.bg-grey-1 {
+  background-color: var(--grey_1);
+}
+.bg-grey-2 {
+  background-color: var(--grey_2);
+}
+.bg-grey-3 {
+  background-color: var(--grey_3);
+}
+.bg-grey-4 {
+  background-color: var(--grey_4);
+}
+.bg-grey-5 {
+  background-color: var(--grey_5);
+}
+.bg-light-primary {
+  background-color: var(--light_primary);
+}
+.bg-pale-lime {
+  background-color: var(--pale_lime);
+}
+.bg-error {
+  background-color: var(--error);
+}
+
+/* Text Colors */
+.text-primary {
+  color: var(--primary);
+}
+.text-secondary {
+  color: var(--secondary);
+}
+.text-variant-1 {
+  color: var(--variant_1);
+}
+.text-variant-2 {
+  color: var(--variant_2);
+}
+.text-variant-3 {
+  color: var(--variant_3);
+}
+.text-variant-4 {
+  color: var(--variant_4);
+}
+.text-dark-primary {
+  color: var(--dark_primary);
+}
+.text-grey-1 {
+  color: var(--grey_1);
+}
+.text-grey-2 {
+  color: var(--grey_2);
+}
+.text-grey-3 {
+  color: var(--grey_3);
+}
+.text-grey-4 {
+  color: var(--grey_4);
+}
+.text-grey-5 {
+  color: var(--grey_5);
+}
+.text-light-primary {
+  color: var(--light_primary);
+}
+.text-pale-lime {
+  color: var(--pale_lime);
+}
+.text-error {
+  color: var(--error);
+}
+
+/* Box Shadows */
+.shadow-large {
+  box-shadow: var(--large_shadow);
+}
+.shadow-small {
+  box-shadow: var(--small_shadow);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f6f7ef !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* margin */
+/* Margin Top */
+.mt-1 {
+  margin-top: 8px;
+}
+.mt-2 {
+  margin-top: 16px;
+}
+.mt-3 {
+  margin-top: 24px;
+}
+
+/* Margin Bottom */
+.mb-1 {
+  margin-bottom: 8px;
+}
+.mb-2 {
+  margin-bottom: 16px;
+}
+.mb-3 {
+  margin-bottom: 24px;
+}
+
+/* Margin Left */
+.ml-1 {
+  margin-left: 8px;
+}
+.ml-2 {
+  margin-left: 16px;
+}
+.ml-3 {
+  margin-left: 24px;
+}
+
+/* Margin Right */
+.mr-1 {
+  margin-right: 8px;
+}
+.mr-2 {
+  margin-right: 16px;
+}
+.mr-3 {
+  margin-right: 24px;
+}
+
+.font-10 {
+  font-size: 10px;
+}
+.font-11 {
+  font-size: 11px;
+}
+.font-12 {
+  font-size: 12px;
+}
+.font-13 {
+  font-size: 13px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-17 {
+  font-size: 17px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-19 {
+  font-size: 19px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-21 {
+  font-size: 21px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-23 {
+  font-size: 23px;
+}
+.font-24 {
+  font-size: 24px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.font-26 {
+  font-size: 26px;
+}
+.font-27 {
+  font-size: 27px;
+}
+.font-28 {
+  font-size: 28px;
+}
+.font-29 {
+  font-size: 29px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-31 {
+  font-size: 31px;
+}
+.font-32 {
+  font-size: 32px;
+}
+.font-33 {
+  font-size: 33px;
+}
+.font-34 {
+  font-size: 34px;
+}
+.font-35 {
+  font-size: 35px;
+}
+.font-36 {
+  font-size: 36px;
+}
+.font-37 {
+  font-size: 37px;
+}
+.font-38 {
+  font-size: 38px;
+}
+.font-39 {
+  font-size: 39px;
+}
+.font-40 {
+  font-size: 40px;
+}
+.font-41 {
+  font-size: 41px;
+}
+.font-42 {
+  font-size: 42px;
+}
+.font-43 {
+  font-size: 43px;
+}
+.font-44 {
+  font-size: 44px;
+}
+.font-45 {
+  font-size: 45px;
+}
+.font-46 {
+  font-size: 46px;
+}
+.font-47 {
+  font-size: 47px;
+}
+.font-48 {
+  font-size: 48px;
+}
+.font-49 {
+  font-size: 49px;
+}
+.font-50 {
+  font-size: 50px;
+}
+
+.font-weight-300 {
+  font-weight: 300;
+}
+.font-weight-400 {
+  font-weight: 400;
+}
+.font-weight-500 {
+  font-weight: 500;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+.font-weight-700 {
+  font-weight: 700;
+}
+.font-weight-800 {
+  font-weight: 800;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+@media (max-width: 699px) {
+  .w-50 {
+    width: 100%;
+  }
+}
+
+.rotate-180 svg {
+  transform: rotate(180deg);
+}
+
+.btn-secondary {
+  background: #fff;
+  border: 1px solid #fc7300;
+  color: #fc7300;
+  width: 100%;
+  margin-top: 16px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  transition: 0.2s;
+}
+
+.btn-secondary:hover {
+  background: #fc7300;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+button{
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.grid-container {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 32px;
+}
+.city-card-hover {
+  border: 2px solid #e5e5e5bb !important;
+  transition: 0.2s linear;
+}
+.city-card-hover:hover {
+  border: 2px solid #a64dffbf !important;
+  cursor: pointer;
+}
+@media (max-width: 699px) {
+  .grid-container {
+    margin-top: 12px;
+    display: grid;
+    /* grid-template-columns: repeat(1, 1fr); */
+    gap: 0px;
+  }
+  .swiper-pagination-bullets{
+    /* margin-top: 100px !important; */
+  }
+  
+  .swiper-pagination-bullet-active{
+    background : #696969 !important;
+    width: 40px;
+    border-radius: 8px;
+  }
+  
+  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    height: 25px !important;
+    /* background: rgba(255, 0, 0, 0.211); */
+  }
+  
+  .swiper{
+    padding-bottom: 40px;
+  }
+}
+
+

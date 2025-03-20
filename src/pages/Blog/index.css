@@ -1,0 +1,27 @@
+.short-image img {
+  width: 100%;
+}
+
+figure {
+  width: 1000px;
+  display: none;
+}
+
+/* @media (max-width: 1322px) {
+  figure {
+    width: 900px;
+  }
+}
+
+@media (max-width: 1150px) {
+  figure {
+    width: 800px;
+  }
+}
+
+
+@media (max-width: 1150px) {
+  figure {
+    width: 800px;
+  }
+} */

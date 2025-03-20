@@ -1,0 +1,39 @@
+.travel-card-container {
+  display: flex;
+  margin-bottom: 24px;
+}
+.travel .benefit_card {
+  /* width: 33%; */
+  padding: 12px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+.travel .benefit_card:nth-child(1) {
+  margin-left: 0px !important;
+}
+.travel .benefit_card:nth-child(3) {
+  margin-right: 0px !important;
+}
+.travel .benefit_card:nth-child(2) {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+@media (max-width: 699px) {
+  .travel-card-container {
+    /* display: unset !important; */
+    overflow-x: scroll;
+  }
+  .travel .benefit_card {
+    margin: 0px  !important;
+    min-width: 100% !important;
+    /* margin-bottom: 12px !important; */
+  background: #fff;
+
+  }
+  .travel .benefit_card:nth-child(2) {
+    margin-left: 12px !important;
+    margin-right: 12px !important;
+  }
+}

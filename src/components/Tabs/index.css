@@ -1,0 +1,68 @@
+.tabs {
+  display: flex;
+  border-bottom: 1px solid var(--grey_4);
+  position: relative;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  margin-right: 48px;
+  cursor: pointer;
+  transition: 0.2s linear;
+  font-weight: 600 !important;
+  padding: 0px;
+  width: max-content !important;
+  margin-bottom: 16px;
+  position: relative;
+  min-width: max-content;
+}
+
+.tab-active {
+  color: var(--secondary);
+  font-weight: 600 !important;
+}
+
+/* Sliding animation for the active tab line */
+.tab-active-line {
+  height: 4px;
+  background-color: var(--secondary);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+  width: 100px;
+}
+
+.tab-active-line-200px {
+  height: 4px;
+  background-color: var(--secondary);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+  width: 230px;
+}
+
+@media (max-width: 699px) {
+  .tabs {
+    margin-left: 0px !important;
+  }
+}
+/* 
+.fade-in {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: translateX(20px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+} */

@@ -1,0 +1,143 @@
+.css-1qw2a80-MuiGrid-root {
+  margin: 0px !important;
+  width: 100% !important;
+}
+
+.css-1qw2a80-MuiGrid-root > .MuiGrid-item {
+  padding-left: 0px !important;
+}
+
+.blog-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.pagination {
+  display: flex;
+}
+
+.pagination button {
+  width: 26px;
+  height: 26px;
+  border: 1px solid #0000003b;
+  border-radius: 4px;
+  background: transparent;
+  margin: 0px 6px;
+  color: #000000d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination .active {
+  border: 1px solid #a64dff80;
+  color: #a64dff;
+  background: #a64dff1f;
+}
+
+@media (max-width: 1099px) {
+  .blog-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 699px) {
+  .blog-card-container {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
+
+
+.blog-page-banner{
+  position: relative;
+  display: flex;
+}
+
+.blog-page-banner-search{
+  position: absolute;
+  width: 40%;
+  background-color: #fff;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+}
+
+.blog-page-banner-search  input{
+  width: 92%;
+padding: 12px;
+border-radius: 8px;
+border: none;
+outline: 0;
+
+}
+
+.blog-page-banner-search  input::placeholder{
+  color: #525252;
+  font-size: 14px;
+}
+
+@media(max-width:699px){
+  .blog-page-banner-search{
+    position: absolute;
+    width: 80%;
+    background-color: #fff;
+    bottom: 18px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 0px 8px;
+    display: flex;
+    align-items: center;
+  }
+  .blog-page-banner-search  input{
+    width: 92%;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  outline: 0;
+  
+  }
+}
+
+.large-blod-card{
+  display: flex;
+  padding: 8px 0px;
+}
+
+.large-blod-card .left{
+  display: flex;
+  width: 55%;
+  position: relative;
+}
+.large-blod-card .left img{
+  border-radius: 8px;
+}
+
+.large-blod-card .right{
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+  padding: 24px;
+}
+
+@media(max-width:899px){
+  .large-blod-card{
+    display: unset !important;
+  }
+  .large-blod-card .left{
+    width: 100% !important;
+  }
+  .large-blod-card .right{
+    width: 100% !important;
+    padding: 0px;
+    padding-top: 8px;
+  }
+}

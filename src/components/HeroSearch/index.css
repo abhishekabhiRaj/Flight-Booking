@@ -1,0 +1,80 @@
+.flight-search {
+  background-color: #ebd9ff;
+  /* background-color: red; */
+  height: 380px;
+  position: relative;
+}
+
+.cloud_1,
+.cloud_2,
+.cloud_3,
+.cloud_4 {
+  position: absolute;
+  z-index: 1;
+}
+
+.cloud_1 {
+  left: 40%;
+}
+
+.cloud_2 {
+  top: 79px;
+  left: 160px;
+  color: #45008a;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.cloud_3 {
+  bottom: -7px;
+  left: 40%;
+}
+
+.cloud_4 {
+  right: 0%;
+  top: 80px;
+}
+
+.plane {
+  position: absolute;
+  left: 43%;
+  top: 70px;
+  /* z-index: 888; */
+}
+@keyframes flyPlane {
+  from {
+    left: 10%;
+  }
+  to {
+    left: 110%;
+  }
+}
+
+@media (max-width: 699px) {
+  .cloud_2 {
+    top: 32px;
+    left: 98px;
+    color: #45008a;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+  }
+  .plane {
+    left: 10%;
+    top: 112px;
+    /* animation: flyPlane 5s linear infinite; */
+  }
+  .plane svg {
+    width: 300px !important;
+  }
+  .cloud_1 {
+    display: none !important;
+  }
+  .cloud_3 {
+    display: none !important;
+  }
+}
+
+.MuiBox-root .css-19uqgge::before {
+  display: none !important;
+}

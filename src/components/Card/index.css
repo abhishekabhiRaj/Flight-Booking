@@ -1,0 +1,130 @@
+.cards {
+  margin-top: 8px;
+  border-radius: 8px;
+  box-shadow: -1px -1px 20px #959da551;
+  background: #fff;
+  padding: 24px 32px;
+}
+
+.flight-card-price {
+  display: flex;
+  margin-top: 12px;
+}
+
+.flight-card-price .left {
+  width: 50%;
+  /* height: 100px; */
+  /* background: red; */
+  padding: 8px;
+}
+
+.flight-card-price .card {
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  /* padding: 12px; */
+  background: #fff;
+}
+
+.flight-price {
+  margin-bottom: 12px;
+  padding: 8px 16px;
+}
+.flight-price .top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 8px;
+}
+
+.flight-price .bottom {
+  padding: 8px;
+}
+
+.flight-price h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.flight-card-price .right {
+  width: 50%;
+  /* height: 100px; */
+  /* background: green; */
+  padding: 8px;
+}
+.round-card {
+  display: flex;
+}
+
+.round-card .left {
+  padding-right: 24px;
+}
+
+.round-card .right {
+  padding-left: 24px;
+}
+
+.web-view {
+  display: unset;
+}
+
+.mobile-view {
+  display: none;
+}
+.divider {
+  height: 110px;
+  width: 1px;
+  background: #e5e5e5;
+}
+
+.hover-text:hover {
+  color: rgb(166, 77, 255) !important;
+}
+
+@media (max-width: 699px) {
+  .web-view {
+    display: none !important;
+  }
+  .cards {
+    padding: 12px 12px !important;
+  
+  }
+  .overflow{
+    overflow-y: scroll;
+    height: 100vh;
+  }
+  .round-card {
+    display: unset !important;
+  }
+
+  .round-card .left {
+    width: 100% !important;
+    padding: 0px !important;
+  }
+  .divider {
+    height: 1px !important;
+    width: 100% !important;
+    background: #e5e5e5;
+  }
+
+  .round-card .right {
+    width: 100% !important;
+    padding: 0px !important;
+  }
+
+  .mobile-view {
+    display: unset !important;
+  }
+}

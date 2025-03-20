@@ -1,0 +1,42 @@
+.help-card-container {
+  display: flex;
+  margin: 0px;
+  justify-content: space-between;
+}
+
+.help_left_card {
+  width: 45%;
+  /* padding: 24px; */
+  display: flex;
+}
+.help_left_card .left {
+  width: 70%;
+}
+.help_left_card .right {
+  width: 70%;
+}
+.vertical_line {
+  height: 200px;
+  width: 1px;
+  background: #d3d3d3;
+}
+
+@media (max-width: 699px) {
+  .help-card-container {
+    display: unset !important;
+  }
+  .help_left_card {
+    display: unset !important;
+    width: 100% !important;
+  }
+  .help_left_card .left {
+    width: 100% !important;
+  }
+  .help_left_card .right {
+    width: 100% !important;
+    margin-top: 12px;
+  }
+  .vertical_line {
+    display: none;
+  }
+}

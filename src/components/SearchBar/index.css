@@ -1,0 +1,60 @@
+.bg-theme {
+  /* background-color: #ebd9ff; */
+  /* position: relative; */
+}
+
+.bg-theme p {
+  position: absolute;
+  left: 150px;
+  top: 120px;
+}
+
+@media (max-width: 1360px) {
+  .bg-theme p {
+    left: 100px !important;
+    top: 120px;
+  }
+}
+
+@media (max-width: 1251px) {
+  .bg-theme p {
+    left: 60px !important;
+    top: 120px;
+  }
+}
+
+@media (max-width: 1251px) {
+  .bg-theme p {
+    left: 60px !important;
+    top: 120px;
+    font-size: 30px !important;
+    
+  }
+}
+
+@media (max-width: 699px) {
+  .bg-theme p {
+    /* left: 50px !important; */
+    top: 99px;
+    font-size: 16px !important;
+    text-align: center;
+    min-width: 300px;
+    left: 0px !important;
+    right: 0;
+    margin: auto;
+  }
+}
+
+
+
+@media (max-width: 399px) {
+  .bg-theme p {
+    top: 99px;
+    font-size: 16px !important;
+    text-align: center;
+    /* min-width: 300px; */
+    left: 0px !important;
+    right: 0;
+    margin: auto;
+  }
+}

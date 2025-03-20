@@ -1,0 +1,30 @@
+.review-card-container {
+  display: flex;
+}
+.reveiw_card {
+  width: 33%;
+  margin-bottom: 16px;
+}
+
+.reveiw_card:nth-child(1) {
+  margin-right: 24px;
+}
+
+.reveiw_card:nth-child(3) {
+  margin-left: 24px;
+}
+@media (max-width: 699px) {
+  .review-card-container {
+    display: unset !important;
+  }
+  .reveiw_card {
+    width: 100% !important;
+  }
+  .reveiw_card:nth-child(1) {
+    margin-right: 0px;
+  }
+
+  .reveiw_card:nth-child(3) {
+    margin-left: 0px;
+  }
+}

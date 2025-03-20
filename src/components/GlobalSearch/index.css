@@ -1,0 +1,134 @@
+.css-fd2qku-MuiAutocomplete-root .MuiFilledInput-root {
+  padding: 0px !important;
+}
+
+.css-cmpglg-MuiFormControl-root-MuiTextField-root {
+  /* opacity: 0px !important;
+  width: 0px !important; */
+  border: none !important;
+}
+.css-1q045n3-MuiTypography-root-MuiMultiInputDateRangeField-separator {
+  display: none !important;
+}
+
+.react-datepicker-wrapper {
+  width: 100% !important ;
+  border: 0px solid #c5c4c5 !important;
+  border-radius: 4px;
+  padding: 3px;
+}
+.date_picker_input {
+  border: none !important;
+  outline: none;
+  /* font-size: 16px; */
+  /* padding: 27px 8px !important; */
+  /* height: 30px; */
+  background-color: transparent !important;
+}
+
+.react-datepicker__day--in-selecting-range {
+  background: #a64dff23 !important;
+  color: #000 !important;
+}
+.react-datepicker__day--in-range {
+  background: #a64dff74 !important;
+}
+.date_picker_input::placeholder {
+  font-size: 1rem;
+  width: 100% !important;
+  /* background: red !important; */
+}
+.react-datepicker__day--selected {
+  background: #8228db !important;
+}
+
+.react-datepicker__day--range-end,
+.react-datepicker__day--range-end {
+  background: #8228db !important;
+}
+/* .react-datepicker__day--keyboard-selected {
+  background: rgb(252, 115, 0) !important;
+  color: #fff !important;
+} */
+
+.MuiPopper-root,
+.css-51we07-MuiPopper-root {
+  z-index: 1 !important;
+}
+@media (max-width: 699px) {
+  .css-1b1fjlj-MuiFormControl-root-MuiTextField-root {
+    width: 100% !important;
+  }
+}
+
+.text-capitalize input {
+  text-transform: capitalize !important
+  ;
+}
+
+.flip-btn {
+  background: #fff;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #e6e8e9;
+  position: absolute;
+  left: 250px;
+  z-index: 100;
+  top: 26px;
+  cursor: pointer;
+}
+
+.flip-btn {
+  background: #fff;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #e6e8e9;
+  position: absolute;
+  left: 250px;
+  z-index: 100;
+  top: 26px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flip-img {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.rotated {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 699px) {
+  .flip-btn {
+    top: 63px;
+    left: 153px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .flip-btn {
+    top: 27px;
+    left: 22%;
+  }
+}
+
+@media (max-width: 900px) {
+  .flip-btn {
+    top: 27px;
+    left: 49%;
+  }
+}
+
+@media (max-width: 600px) {
+  .flip-btn {
+    top: 62px;
+    left: 49%;
+  }
+}

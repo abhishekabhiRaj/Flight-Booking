@@ -1,0 +1,17 @@
+.deal-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 1099px) {
+  .deal-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 699px) {
+  .deal-card-container {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}

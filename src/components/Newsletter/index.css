@@ -1,0 +1,10 @@
+@media(max-width:699px){
+    .center{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .css-14pfafv{
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,11 @@
+.MuiContainer-root,
+.MuiContainer-maxWidthLg,
+.css-1xxsbsc-MuiContainer-root {
+  outline: none !important;
+}
+
+@media (max-width: 699px) {
+  .gasBallonSvg svg {
+    width: 100% !important;
+  }
+}

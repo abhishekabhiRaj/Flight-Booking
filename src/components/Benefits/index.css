@@ -1,0 +1,44 @@
+.benefit_card_container {
+  display: flex;
+  /* // padding: "0px 16px", */
+  margin-bottom: 24px;
+}
+
+.benefit_card_container .benefit_card {
+  /* width: 33%; */
+  padding-bottom: 24px !important;
+  border: 1px solid #d3d3d3;
+  border-radius: 8px;
+}
+
+@media (max-width: 699px) {
+  .benefit_card_container {
+    display: unset !important;
+  }
+  .benefit_card {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 699px) {
+  .benefit_card_container .benefit_card:nth-child(1) {
+    /* background-color: red; */
+
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .benefit_card_container .benefit_card:nth-child(3) {
+    /* background-color: red; */
+
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .benefit_card_container .benefit_card:nth-child(2) {
+    /* background-color: red; */
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-radius: 0px;
+  }
+}
